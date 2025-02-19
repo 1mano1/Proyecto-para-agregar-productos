@@ -3,7 +3,7 @@ let productos = new Map();
         function mostrarMensaje(texto, tipo) {
             let mensaje = document.getElementById('mensaje');
             mensaje.textContent = texto;
-            mensaje.className = `mensaje ${tipo}`;
+            mensaje.className = `inventario ${tipo}`;
             mensaje.style.display = 'block';
             
             setTimeout(() => {

@@ -3,7 +3,7 @@
             font-family: Arial, sans-serif;
             margin: 20px;
         }
-        .container {
+        .producto {
             max-width: 400px;
             margin: auto;
         }
@@ -29,7 +29,7 @@
         button:hover {
             background-color: #0056b3;
         }
-        .mensaje {
+        .inventario {
             position: fixed;
             top: 10px;
             right: 10px;
